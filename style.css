@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: 1;
+}
+
+article {
+  flex: 1;
+}
+
+nav {
+  /* 12em is the width of the side columns */
+  flex: 0 0 250px;
+}
+aside {
+  /* 12em is the width of the side columns */
+  flex: 0 0 100px;
+}
+
+
+
+/* Add Colors and spacing to make it look like the picture */
+body {
+  padding: 0;
+  margin: 0;
+}
+header,
+nav,
+article,
+aside,
+footer {
+  padding: 5px;
+}
+header {
+  background-color: #8c07ca;
+}
+nav {
+  background-color: #000000;
+}
+article {
+  background-color: #ffffff;
+}
+aside {
+  background-color: #d70f0f;
+}
+footer {
+  background-color: rgb(98, 218, 245);
+}
+
+
+
+.flex { display: flex; }
+
+
+
